@@ -12,8 +12,8 @@ Gem::Specification.new do |spec|
     spec.metadata['allowed_push_host'] = "https://rubygems.org"
   end
 
-  spec.summary       = %q{}
-  spec.description   = %q{}
+  spec.summary       = %q{There is no way to unfreeze a frozen object. Really?}
+  spec.description   = %q{Have you ever heard about icebergs or icicles? What about melting?}
   spec.homepage      = "https://github.com/zizkovrb/melt"
   spec.license       = "MIT"
 
