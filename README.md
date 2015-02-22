@@ -1,4 +1,4 @@
-# Melt
+# Melt [![Build Status](https://travis-ci.org/zizkovrb/melt.svg?branch=master)](https://travis-ci.org/zizkovrb/melt)
 
 [There is no way to unfreeze a frozen object.](http://ruby-doc.org/core-2.2.0/Object.html#method-i-freeze) Really? Have you ever heard about icebergs or icicles? What about melting?
 
