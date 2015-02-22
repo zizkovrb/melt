@@ -2,6 +2,8 @@
 
 [There is no way to unfreeze a frozen object.](http://ruby-doc.org/core-2.2.0/Object.html#method-i-freeze) Really? Have you ever heard about icebergs or icicles? What about melting?
 
+![no way to unfreeze?](http://media.giphy.com/media/Et9WoN2Aejm3C/giphy.gif)
+
 ## Installation
 
 Add this line to your application's Gemfile:
