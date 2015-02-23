@@ -17,11 +17,15 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/zizkovrb/melt"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.files         = Dir.glob("ext/**/*.{c,java,rb}") + Dir.glob("lib/**/*.rb")
   spec.require_paths = ["lib"]
-  spec.extensions    = ["ext/melt/extconf.rb"]
+
+  if RUBY_PLATFORM =~ /java/
+    spec.platform = "java"
+    spec.files << "lib/melt/melt.jar"
+  else
+    spec.extensions    = ["ext/melt/extconf.rb"]
+  end
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
