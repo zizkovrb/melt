@@ -1,12 +1,9 @@
 package org.zizkovrb.melt;
 
-import java.lang.Long;
 import java.io.IOException;
 
 import org.jruby.Ruby;
-import org.jruby.RubyArray;
 import org.jruby.RubyClass;
-import org.jruby.RubyFixnum;
 import org.jruby.RubyModule;
 import org.jruby.RubyObject;
 import org.jruby.anno.JRubyMethod;
