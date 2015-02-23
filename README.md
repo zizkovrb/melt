@@ -4,6 +4,10 @@
 
 ![no way to unfreeze?](http://media.giphy.com/media/Et9WoN2Aejm3C/giphy.gif)
 
+## Compatibility
+
+Works with CRuby and JRuby.
+
 ## Installation
 
 Add this line to your application's Gemfile:
