@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/zizkovrb/melt"
   spec.license       = "MIT"
 
-  spec.files         = Dir.glob("ext/**/*.{c,java,rb}") + Dir.glob("lib/**/*.rb")
+  spec.files         = Dir.glob("ext/**/*.{c,h,java,rb}") + Dir.glob("lib/**/*.rb")
   spec.require_paths = ["lib"]
 
   if RUBY_PLATFORM =~ /java/
