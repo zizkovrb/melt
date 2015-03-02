@@ -1,3 +1,7 @@
+# 0.3 (2015-03-02)
+
+* fixed compilation by @tom-lord
+
 # 0.2 (2015-02-23)
 
 * initial JRuby support
