@@ -6,10 +6,10 @@ Rake::TestTask.new(:test) do |t|
 end
 
 if RUBY_PLATFORM =~ /java/
-    require 'rake/javaextensiontask'
-    Rake::JavaExtensionTask.new('melt') do |ext|
-      ext.lib_dir = "lib/melt"
-    end
+  require 'rake/javaextensiontask'
+  Rake::JavaExtensionTask.new('melt') do |ext|
+    ext.lib_dir = "lib/melt"
+  end
 else
   require "rake/extensiontask"
   Rake::ExtensionTask.new("melt") do |ext|
