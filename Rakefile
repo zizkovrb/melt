@@ -19,3 +19,7 @@ end
 
 task :default => [:clean, :build, :test]
 task :build => :compile
+
+namespace :ci do
+  task :test => [:default, :install]
+end
