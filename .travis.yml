@@ -1,5 +1,6 @@
 language: ruby
 script: bin/rake ci:test
 rvm:
-  - 2.2.0
+  - 2.2.3
+  - jruby-9.0.3.0
   - jruby-19mode
